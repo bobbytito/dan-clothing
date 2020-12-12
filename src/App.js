@@ -12,7 +12,9 @@ const HatsPage = () => (
 
 function App() {
   return (
-    <HomePage />
+    <div>
+      <Route exact path='/' component={HomePage}/>
+    </div>
   );
 }
 
